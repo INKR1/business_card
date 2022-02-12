@@ -4,7 +4,7 @@
 }
 body{
     background-image: linear-gradient(white, 343deg,#eeaeca, #94bbe9);
-    font-family: Georgia, serif;
+    font-family: Verdana, sans-serif;
 }
 
 .box {
@@ -34,9 +34,11 @@ body{
 }
 
 .box__header--name {
+    font-weight: 300;
     color: rgb(117, 117, 117);
   }
 .box__header--profession {
+    font-weight: 100;
     color: rgb(180, 180, 180);
   }
 
@@ -78,6 +80,7 @@ i{
 
 .line{
     border-bottom: 0.7px solid rgb(117, 117, 117);
+    width: 40%;
 }
 
 .box__body--img{
