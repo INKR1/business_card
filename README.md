@@ -11,7 +11,7 @@ such as requests and responses. It also provides a global `fetch()` method that 
 logical way to fetch resources asynchronously across the network.
 
 - First I get started by creating a HTML file.
-- Next in the common.js file I’ll make my request using the Fetch API.
+- Next in the `common.js` file I’ll make my request using the Fetch API.
 - If the request was successful, I'm passing this data to a function that will render it into the HTML.
 - All that’s left to do is add the CSS.
 
